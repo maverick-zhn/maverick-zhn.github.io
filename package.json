@@ -1,12 +1,12 @@
 {
   "name": "servio_palacios_portfolio",
-  "version": "0.2.0",
+  "version": "0.2.3",
   "private": true,
-  "homepage": "http://maverick-z.github.io/maverick-zhn.github.io",
+  "homepage": "https://maverick-zhn.github.io/maverick-zhn.github.io",
   "scripts": {
     "dev": "next dev",
     "predeploy": "next build && next export",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d out",
     "start": "next start"
   },
   "dependencies": {
